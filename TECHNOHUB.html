@@ -155,6 +155,7 @@ $(function(){
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 
     <![endif]-->
+	<script src="src/jquery-bootstrap-modal-steps.js"></script>
 
   </head>
   
@@ -388,28 +389,28 @@ $(function(){
 	
 	<!-- Projects Content goes here -->
 
-	
+			
             <div role="tabpanel" class="tab-pane" id="projects">
 			
 			<div class="col-sm-12 col-md-12">
-
-				<hr>
-
-				<center><button type="button" class="btn btn-info btn-md" data-toggle="modal" data-target="#myModal">Upload Your Project Here</button></center>
 				
-				<!-- Modal -->
-				<div id="myModal" class="modal fade" role="dialog">
-				  <div class="modal-dialog">
+			<hr>
 
-					<!-- Modal content-->
-					<div class="modal-content">
-					  <div class="modal-header">
-						<button type="button" class="close" data-dismiss="modal">&times;</button>
-						<h3 class="modal-title" align="center"><b>Project Submission</b></h3>
-					  </div>
-					  <div class="modal-body">
-						
-						<form method="post" enctype="multipart/form-data">
+			<!-- Button trigger modal -->
+			<div align="center"><button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal"> Upload Your Project Here </button></div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+				<div class="modal-content">
+				  <div class="modal-header">
+					<h4 class="js-title-step"></h4>
+				  </div>
+				  <div class="modal-body">
+					
+					<div class="row hide" data-step="1" data-title="Fill in the Details below">
+					<div  style="margin:20px;">
+					<form method="post" enctype="multipart/form-data">
 						  <div class="form-group">
 							<label for="name">Name:</label>
 							<input type="text" class="form-control" id="name">
@@ -419,33 +420,76 @@ $(function(){
 							<input type="email" class="form-control" id="email">
 						  </div>
 						  <div class="form-group">
-							<label for="fileToUpload1">Profile Picture (.jpg)</label>
-							<input type="file" class="form-control-file" id="fileToUpload1" aria-describedby="fileHelp1">
-							<small id="fileHelp1" class="form-text text-muted">Upload your profile picture here.</small>
-						  </div>
-						  <div class="form-group">
 							<label for="exampleInputFile">File input (.zip)</label>							
-							<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp2">							
+							<input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp2" required>							
 							<small id="fileHelp2" class="form-text text-muted">Upload your project file here.</small>
 						  </div>
-						  <div class="form-group">
-							<label for="fileToUpload2">Project Thumbnail</label>
-							<input type="file" class="form-control-file" id="fileToUpload2" aria-describedby="fileHelp3">
-							<small id="fileHelp3" class="form-text text-muted">Upload your project thumbnail here.</small>
-						  </div>
 						  
-						  <div align="center"><button type="submit" class="btn btn-info btn-md">Submit</button></div>
 						</form>
-						
-						
-					  </div>
-					  <div class="modal-footer">
-						<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-					  </div>
 					</div>
-
+					</div>
+						
+						
+					<div class="row hide" data-step="2" data-title="Select Languages Used in your Project">
+						
+						<div style="margin:20px;">
+							
+								<div class="checkbox">
+									<label><input type="checkbox" value="">C</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="">C++</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Java</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Python</label>
+								</div>
+							
+							
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Bootstrap</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Ruby</label>
+								</div>
+								<div class="checkbox">
+									<label><input type="checkbox" value="">Others</label><br>
+									<input type="text" class="form-control" placeholder="Please mention the languages used">
+								</div>
+								
+						
+							
+						</div>
+						
+						  
+						
+					</div>
+						
+					<div class="row hide" data-step="3" data-title="Payment Method">
+						 <div style="margin:20px;">
+						  
+						Pay on the following number through PayTM.. or Scan the QR Code from your mobile.
+						  
+						 </div>
+					</div>
+					
+				
+					
+					
+					
+				  </div>
+				  <div class="modal-footer">
+					<button type="button" class="btn btn-default js-btn-step pull-left" data-orientation="cancel" data-dismiss="modal"></button>
+					<button type="button" class="btn btn-warning js-btn-step" data-orientation="previous"></button>
+					<button type="button" class="btn btn-success js-btn-step" data-orientation="next"></button>
 				  </div>
 				</div>
+			  </div>
+			</div>
+			
+			
 				
 				
 
@@ -474,8 +518,11 @@ $(function(){
 	</div>
 	</div>
 </div>
+</div>
 
-
+<script>
+$('#myModal').modalSteps();
+</script>
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 
