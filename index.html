@@ -1,285 +1,394 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <link rel="shortcut icon" href="images/logo.ico" />
-    <title>Dashboard | Krishna Engineering College</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed" rel="stylesheet">
+    <title>Company Name</title>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-<body>  
-<div class="container-fluid bluez">
-<!-- Logo-->
-<div class="container header">
-  <div class="row">
-    <div class="col-md-2">
-      <img src="images/logo.png" class="logokec img-responsive">
-    </div>
-      <div class="col-md-10 text-center kecheading">
-        <h2 class="kech">Krishna Engineering College</h2>
-        <i>Approved by AICTE, A Premium Institute of AKTU (College Code - 161)</i>
-      </div>   
-  </div>
-</div>
-</div>
 
-<div class="container" id="content">
-<br>
-<div class="row">
-	<div class="col-md-3">
-    	<h3><b>Welcome User !</b></h3>
-    </div>
-    <div class="col-md-2 col-md-offset-7">
-    	<h3>
-    	<form>
-            <div class="form-group">
-            	<input type="button" class="form-control btn btn-block btn-primary" value="Log Out"> 
-            </div>
-      	</form>
-        </h3>
-    </div>
-</div>
-    
-   <h1 class="text-center">Notice to be Upload</h1>
-  <div class="row">
-    <div class="col-md-6 col-md-offset-3">
-     <form >
-      <div class="form-group">
-        <label for="">Select Place</label>
-        <select class="form-control" placeholder="Department">
-        <option>Home Page Only</option>
-        <option>Department Only</option>
-        <option>Both Department and Home Page</option>
-        </select>
-      </div>
-      <div class="form-group">
-      	<label for="">Title of the Notice</label>
-        <input type="text" class="form-control" placeholder="Title" required>
-      </div>
-      <div class="form-group">
-        <label for="">Upload your Notice (PDF Format)</label>
-        <input type="file" class="form-control" required> 
-      </div>      
-      <div class="form-group">
-      	<label for="">Release Date ( dd-mm-yyyy )</label>
-        <input type="date" class="form-control" required> 
-      </div>
-      <div class="form-group">
-        <input type="submit" class="form-control btn btn-block btn-primary"> 
-      </div>
-      
-     </form>
-    </div>
-  </div>
-  <br><hr><br>
-  <div class="row">
-  	<div class="col-md-6">
-    	<div class="card card2 floatLeft">
-            <div class="card-header">
-              <h3><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> NOTICES</h3>
-            </div>
-             <div class="card-content">
-                 <!-- Nav tabs -->
-                   <ul class="nav nav-tabs" role="tablist">
-                     <li role="presentation" class="active"><a href="#btech" aria-controls="btech" role="tab" data-toggle="tab">Published</a></li>
-                     <li role="presentation"><a href="#mtech" aria-controls="mtech" role="tab" data-toggle="tab">Pending</a></li>
-                   </ul>
+</head>
 
-                   <!-- Tab panes -->
-                   <div class="tab-content">
-                     <div role="tabpanel" class="tab-pane active" id="btech">
-                     
-                     <table class="table table-striped">
-                     	<tr>
-                            <th>S.No.</th>
-                            <th>Title</th>
-                            <th>File</th>
-                            <th>Release Date</th>
-                            <th>Place</th>
-                            <th>Status</th>
-                        </tr>
-                        <tr>
-                        	<td>1</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>2</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>3</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>4</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                     </table>
-                     <div class="card-footer">
-                      <a href="#" class="btn btn-large btn-block btn-info" role="button">View All Published Notices</a>
-                    </div><br>
-                     </div>
-                     <div role="tabpanel" class="tab-pane" id="mtech">
-                     <table class="table table-striped">
-                     	<tr>
-                            <th>S.No.</th>
-                            <th>Title</th>
-                            <th>File</th>
-                            <th>Release Date</th>
-                            <th>Place</th>
-                            <th>Status</th>
-                        </tr>
-                        <tr>
-                        	<td>1</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>2</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>3</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>4</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                     </table>
-                     <div class="card-footer">
-                      <a href="#" class="btn btn-large btn-block btn-info" role="button">View All Pending Notices</a>
-                    </div><br>
-                     </div>
-                   </div>
-             </div>
-         </div>
-    </div>
-    <div class="col-md-6">
-    	<div class="card card2 floatLeft"> 
-            <div class="card-header">
-            <h3><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span> Messages</h3>
-            </div>
-            <div class="card-content text-center">
-              <div style="padding: 10px;">
-              
-              	<table class="table table-responsive">
-                		<tr>
-                        	<th colspan="5">All Messages are shown here.</th>
-                        </tr>
-                        <tr>
-                        	<td>1</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>2</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>3</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>4</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                        	<td>5</td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                            <td></td>
-                        </tr>
-                     </table>
-                     
-            <div class="card-footer">
-              <a href="#" class="btn btn-large btn-block btn-info" role="button">View All Messages</a>
-            </div>
-              
-              </div>
-            </div>
-         </div>
-    </div>
-  </div><br><br>
-</div>
+<body id="page-top">
 
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Company Name</a>
+            </div>
 
-
-    <!-- Footer -->
-    <footer class="container-fluid">
-      <div class="container">
-        <div class="col-md-4 last">
-          Krishna Engineering College © 2017
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#page-top">Home</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Services</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#testimonials">Testimonials</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container-fluid -->
+    </nav>
 
-<div class="col-md-4">
-      <h4>Developed by <a href="http://anujsh.com" target="_blank" style="color: white;"><b>Anuj Sharma</b></a> & <a href="https://www.facebook.com/kingofdribbles" target="_blank" style="color: white;"><b>Rohit Kapoor</b></a></h4>
-    </div>
-    
-        
-      </div>
-    </footer>
-    <!-- JavaScript Files-->
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/custom.js"></script>
-  </body>
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">The Catchy headline of our company goes here!</h1>
+                <hr class="light">
+                <p>This will help us to promote our website more and more... and we can display social icons here as well!</p>
+                <a href="#" class="btn btn-primary btn-xl page-scroll">Button for addition feature</a>
+            </div>
+        </div>
+    </header>
+
+	<section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">At Your Service</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
+                        <h3>Web Development</h3>
+                        <p class="text-muted">Our templates are updated regularly so they don't break.</p><br>
+						<p><a href="#" class="btn btn-default btn-xl sr-button">Explore!</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
+                        <h3>Android Development</h3>
+                        <p class="text-muted">You can use this theme as is, or you can make changes!</p><br>
+						<p><a href="#" class="btn btn-default btn-xl sr-button">Explore!</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
+                        <h3>Graphics Designing</h3>
+                        <p class="text-muted">We update dependencies to keep things fresh.</p><br>
+						<p><a href="#" class="btn btn-default btn-xl sr-button">Explore!</a></p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
+                        <h3>Software Tools</h3>
+                        <p class="text-muted">You have to make your websites with love these days!</p><br>
+						<p><a href="#" class="btn btn-default btn-xl sr-button">Explore!</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-heading">Who We Are?</h2>
+					<hr class="light">
+					<div class="row">
+						<div class="col-lg-4">
+							<img src="img/portfolio/fullsize/1.jpg" class="img-responsive">
+						</div>
+						<div class="col-lg-8">
+							<p class="text-faded">This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are!</p>
+							<!--<a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
+						</div>
+					</div>
+                </div>
+            </div><br><br><br><br><br><br><br>
+			<div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-heading">Why Us?</h2>
+					<hr class="light">
+					<div class="row">
+						<div class="col-lg-8">
+							<p class="text-faded">This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are!</p>
+							<!--<a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>-->
+						</div>
+						<div class="col-lg-4">
+							<img src="img/portfolio/fullsize/1.jpg" class="img-responsive">
+						</div>
+					</div>
+                </div>
+            </div><br><br>
+			<div class="row">
+                <div class="col-lg-12 text-center">
+					<hr class="light1">
+                </div>
+            </div><br><br>
+			
+			<div class="row">
+				<div class="col-lg-12 text-center">
+				<h2 class="section-heading">Our Team </h2>
+				<hr class="light"><br>
+                <div class="col-lg-3">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<img src="img/person_icon.jpg" class="img-responsive text-center"><br>
+							<b>Vivek Mudgal</b><br>
+							Position
+						</div>
+					</div>
+                </div>
+				<div class="col-lg-3">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<img src="img/person_icon.jpg" class="img-responsive text-center"><br>
+							<b>Rohit Kapoor</b><br>
+							Position
+						</div>
+					</div>
+                </div>
+				<div class="col-lg-3">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<img src="img/person_icon.jpg" class="img-responsive text-center"><br>
+							<b>Deepak Gangwani</b><br>
+							Position
+						</div>
+					</div>
+                </div>
+				<div class="col-lg-3">
+					<div class="row">
+						<div class="col-lg-8 col-lg-offset-2">
+							<img src="img/person_icon.jpg" class="img-responsive text-center"><br>
+							<b>Simran Joshi</b><br>
+							Position
+						</div>
+					</div>
+                </div>
+				</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials">
+        <div class="container">
+            
+			<div class="row">
+				<div class="col-lg-12 text-center">
+					<h2 class="section-heading">Our Valuable Customers</h2>
+					<hr class="primary"><br><br>
+				</div>
+			</div>
+			
+			<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<div class="row">
+					<div class="col-lg-3">
+						<img src="img/person_icon.jpg" class="img-responsive text-center">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Vivek Mudgal</b>
+					</div>
+				
+					<div class="col-lg-9" align="justify">
+						<p>This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are!</p>
+					</div>
+					
+				</div><br><br><hr class="primary"><br><br>
+				
+				<div class="row">
+					<div class="col-lg-3">
+						<img src="img/person_icon.jpg" class="img-responsive text-center">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Vivek Mudgal</b>
+					</div>
+				
+					<div class="col-lg-9" align="justify">
+						<p>This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are!</p>
+					</div>
+				</div><br><br><hr class="primary"><br><br>
+				
+				<div class="row">
+					<div class="col-lg-3">
+						<img src="img/person_icon.jpg" class="img-responsive text-center">
+						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Vivek Mudgal</b>
+					</div>
+				
+					<div class="col-lg-9" align="justify">
+						<p>This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are! This is the information about who we are!</p>
+					</div>
+				</div><br><hr class="primary"><br><br>
+				<div class="text-center"><a href="#" class="page-scroll btn btn-default btn-xl sr-button">And Many more!</a></div>
+			</div>
+			</div>
+			
+        </div>
+    </section>
+
+	<!--
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Free Download at Start Bootstrap!</h2>
+                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
+            </div>
+        </div>
+    </aside>
+	-->
+	
+    <section class="bg-primary" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2 class="section-heading">Let's Get In Touch!</h2>
+                    <hr class="light"><br>
+                    <p class="text-faded">Ready to start your next project with us? That's great! Give us a call or send us an email and we will get back to you as soon as possible!</p><br>
+                </div>
+			</div>
+<!--
+               <div class="col-lg-4 col-lg-offset-2 text-center">
+                    <i class="fa fa-phone fa-3x sr-contact"></i>
+                    <p>123-456-6789</p>
+                </div>
+                <div class="col-lg-4 text-center">
+                    <i class="fa fa-envelope-o fa-3x sr-contact"></i>
+                    <p><a href="#">feedback@startbootstrap.com</a></p>
+                </div>
+-->
+			<div class="row">
+                <div class="col-lg-12">
+				
+					<div class="row">
+
+						<div class="col-lg-4">
+						
+						<h3>Send us a Message</h3>
+						<form name="sentMessage" id="contactForm" novalidate>
+							<div class="control-group form-group">
+								<div class="controls">
+									<input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name." placeholder="Full Name">
+									<p class="help-block"></p>
+								</div>
+							</div>
+							<div class="control-group form-group">
+								<div class="controls">
+									<input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number." placeholder="Phone Number">
+								</div>
+							</div>
+							<div class="control-group form-group">
+								<div class="controls">
+									<input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address." placeholder="Email Address">
+								</div>
+							</div>
+							<div class="control-group form-group">
+								<div class="controls">
+									<textarea rows="9" cols="100" class="form-control" id="message" required data-validation-required-message="Please enter your message" maxlength="999" style="resize:none" placeholder="Please Enter Your Message"></textarea>
+								</div>
+							</div>
+							<div id="success"></div>
+							<!-- For success/fail messages -->
+							<button type="submit" class="btn btn-primary">Send Message</button>
+						</form>
+						
+						</div>
+						
+						<div class="col-lg-4">
+						
+							<!-- Embedded Google Map -->
+							<iframe width="100%" height="400px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?hl=en&amp;ie=UTF8&amp;ll=37.0625,-95.677068&amp;spn=56.506174,79.013672&amp;t=m&amp;z=4&amp;output=embed"></iframe>
+						
+						</div>
+						
+						<div class="col-lg-4">
+						
+							<h3>Contact Details</h3>
+							<p>
+								3481 Melrose Place<br>Beverly Hills, CA 90210<br>
+							</p>
+							<p><i class="fa fa-phone"></i> 
+								: (123) 456-7890</p>
+							<p><i class="fa fa-envelope-o"></i> 
+								: <a href="mailto:name@example.com">name@example.com</a>
+							</p>
+							<p><i class="fa fa-clock-o"></i> 
+								: Monday - Friday: 9:00 AM to 5:00 PM</p>
+							<ul class="list-unstyled list-inline list-social-icons">
+								<li>
+									<a href="#"><i class="fa fa-facebook-square fa-2x"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-twitter-square fa-2x"></i></a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-google-plus-square fa-2x"></i></a>
+								</li>
+							</ul>
+						
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+	
+
+</body>
+
 </html>
