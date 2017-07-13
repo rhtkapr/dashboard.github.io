@@ -16,7 +16,7 @@ hr.light {
 }
 hr.light1 {
   border-color: white;
-  max-width: 100%;
+  max-width: 50%;
 }
 a {
   -webkit-transition: all 0.35s;
@@ -361,4 +361,23 @@ body {
 }
 .img-responsive{
 	 margin: auto;
+}
+.logo{
+	height: 200px;
+	width: 250px;
+}
+.customers{
+	border: 1px solid;
+	border-color: black;
+	padding: 10px;
+	height: 400px !important;
+}
+.news{
+	border: 1px solid;
+	border-color: black;
+	padding: 10px;
+	height: 400px !important;
+}
+.copyright{
+	padding-bottom: 10px;
 }
