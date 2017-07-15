@@ -405,6 +405,7 @@ body {
 	background-clip: padding-box;
 	background-color: white;
 	margin: auto;
+	padding: 15px;;
 }
 .card .card-content {
 	padding: 0;
@@ -441,6 +442,6 @@ body {
 .card-header {
 	padding: 2px 16px;
 	background-color: #175888;
-	color: white;
+	color: black;
 	text-align: center;
 }
