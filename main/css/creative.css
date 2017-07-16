@@ -488,13 +488,24 @@ body {
     color: #309be8;
 }
 .bg-blue{
-	background-image: url('../img/header.jpg');
-    height:350px;
+	background-image: url('../img/bg-body.jpg');
+    height:320px;
     width:100%;    
     position:fixed;
     top:0;
     left:0;
     z-index:500;
+}
+@media (max-width: 768px){
+	.bg-blue{
+		background-image: url('../img/bg-body.jpg');
+		height:200px;
+		width:100%;    
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:500;
+	}
 }
 .heading1{
 	color: white;
@@ -502,4 +513,7 @@ body {
 #other_content{
 	z-index:600;
     position:relative;
+}
+.bg-body{
+	background-image: url('../img/Dark-3.jpg');
 }
