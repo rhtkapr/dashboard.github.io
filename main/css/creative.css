@@ -154,7 +154,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-color: lightblue;
   text-align: center;
   color: white;
 }
@@ -363,8 +363,8 @@ body {
 	 margin: auto;
 }
 .logo{
-	height: 120px;
-	width: 250px;
+	height: 150px;
+	width: 150px;
 }
 .customers{
 	border-left: 1px solid;
