@@ -154,7 +154,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-color: lightblue;
+  background-image: url('../img/header1.jpg');
   text-align: center;
   color: white;
 }
