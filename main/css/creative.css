@@ -44,6 +44,9 @@ p {
 .bg-primary {
   background-color: #2e313f;
 }
+.bg-silver{
+	background-image: url('../img/header1.jpg');
+}
 .bg-dark {
   background-color: #222222;
   color: white;
@@ -589,5 +592,5 @@ body {
 }
 #myCarousel1{
 	background-color: rgba(147, 147, 147, 0.3);
-	box-shadow: 0 2px 5px 0 rgba(255, 255, 255, 0.16), 0 2px 10px 0 rgba(255, 255, 255, 0.6);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
 }
