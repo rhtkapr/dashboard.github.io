@@ -45,6 +45,10 @@ p {
   background-color: #2e313f;
 }
 .bg-silver{
+	background-image: url('../img/bg.jpg');
+	height: 600px !important;
+}
+.bg-silver1{
 	background-image: url('../img/header1.jpg');
 }
 .bg-dark {
@@ -588,9 +592,9 @@ body {
     width: 10px;
     height: 10px;
     margin: 10px;
-    background-color: #ffff99;
+    background-color: #4772ff;
 }
 #myCarousel1{
-	background-color: rgba(147, 147, 147, 0.3);
+	background-color: rgba(255, 255, 255, 1);
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
 }
