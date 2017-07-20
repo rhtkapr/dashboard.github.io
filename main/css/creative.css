@@ -603,5 +603,12 @@ body {
 	
 }
 .front{
+	height: 500px !important;
+}
+.carousel-inner{
 	
+}
+.scrollable{
+	overflow-y: scroll;
+	height: 520px;
 }
