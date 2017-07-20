@@ -599,6 +599,12 @@ body {
 	background-color: rgba(255, 255, 255, 1);
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
 }
+#myCarousel{
+	height: 220px !important;
+}
+#myCarousel2{
+	height: 230px !important;
+}
 .back{
 	
 }
@@ -643,3 +649,8 @@ body {
 .movieinfo a { background-color:#7a3f3a; padding:5px 10px; color:#eee; text-decoration:none; display:block; width:80px; text-align:center; margin:0 auto;
 	-moz-border-radius:5px; -webkit-border-radius:5px; }
 .movieinfo a:hover, .movieinfo a:focus { background-color:#6a191f; color:#fff; }
+
+video {
+    width: 100%;
+    height: auto;
+}
