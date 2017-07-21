@@ -194,6 +194,7 @@ header .header-content .header-content-inner p {
   header {
     min-height: 100%;
   }
+  /* VG LOGO */
   header .header-content {
     position: absolute;
 	top: 38%;
@@ -201,10 +202,71 @@ header .header-content .header-content-inner p {
     -ms-transform: translateY(-40%);
     transform: translateY(-40%);
   }
+  /* VG LOGO Shadow */
   header .header-content1 {
     position: absolute;
     top: 52%;
     transform: translate(175%, -50%) !important;
+  }
+  /* Home Icon */
+  header .header-content2 {
+    position: absolute;
+    top: 70%;
+    transform: translate(615%, 30%) !important;
+  }
+  /* Home Icon Shadow */
+  header .header-content3 {
+    position: absolute;
+    top: 70%;
+    transform: translate(615%, 65%) !important;
+  }
+  /* Icon2 */
+  header .header-content4 {
+    position: absolute;
+    top: 70%;
+    transform: translate(850%, -10%) !important;
+  }
+  /* Icon2 Shadow */
+  header .header-content5 {
+    position: absolute;
+    top: 70%;
+    transform: translate(850%, 20%) !important;
+  }
+  /* Icon3 */
+  header .header-content6 {
+    position: absolute;
+    top: 70%;
+    transform: translate(1070%, -50%) !important;
+  }
+  /* Icon3 Shadow */
+  header .header-content7 {
+    position: absolute;
+    top: 70%;
+    transform: translate(1070%, -20%) !important;
+  }
+  /* Icon4 */
+  header .header-content8 {
+    position: absolute;
+    top: 70%;
+    transform: translate(370%, -10%) !important;
+  }
+  /* Icon4 Shadow*/
+  header .header-content9 {
+    position: absolute;
+    top: 70%;
+    transform: translate(370%, 30%) !important;
+  }
+  /* Icon5*/
+  header .header-content10 {
+    position: absolute;
+    top: 70%;
+    transform: translate(130%, -50%) !important;
+  }
+  /* Icon5 Shadow*/
+  header .header-content11 {
+    position: absolute;
+    top: 70%;
+    transform: translate(130%, -20%) !important;
   }
   header .header-content .header-content-inner {
     max-width: 1000px;
@@ -379,6 +441,10 @@ body {
 .logo{
 	height: 300px;
 	width: 300px;
+}
+.logo1{
+	height: 100px;
+	width: 100px;
 }
 .customers{
 	border-left: 1px solid;
