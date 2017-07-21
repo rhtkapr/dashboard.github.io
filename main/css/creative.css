@@ -437,14 +437,27 @@ body {
 	padding: 15px;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
 }
+.card4 {
+	box-sizing: border-box;
+	border-radius: 2px;
+	background-clip: padding-box;
+	background-color: white;
+	margin: 50px auto;
+	padding: 5px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
+	color: #4772ff;
+}
 .card3 {
 	box-sizing: border-box;
 	border-radius: 2px;
 	background-clip: padding-box;
 	background-color: white;
-	margin: auto;
-	padding: 15px;
+	margin: 15px;
+	padding: 20px;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
+	width: 28%;
+	height: 420px !important;
+	float: left;
 }
 .card .card-content {
 	padding: 0;
@@ -504,8 +517,9 @@ body {
     margin: 0;
     list-style: none;
     margin-top: 10px;
-    line-height: 28px;
+    line-height: 40px;
     color: #309be8;
+	font-size: 25px;
 }
 .bg-blue{
 	background-image: url('../img/webservice.png');
@@ -607,6 +621,9 @@ body {
 #myCarousel2{
 	height: 230px !important;
 }
+#myCarousel23{
+	height: 470px !important;
+}
 .back{
 	
 }
@@ -657,4 +674,7 @@ body {
 video {
     width: 100%;
     height: 200px;;
+}
+.container1{
+	padding-left: 90px;
 }
