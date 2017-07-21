@@ -53,7 +53,8 @@ p {
 	padding-top: 30px;
 }
 .bg-silver1{
-	background-image: url('../img/vg1.jpg');
+	background-image: url('../img/new.jpg');
+	margin: auto;
 }
 .bg-dark {
   background-color: #222222;
