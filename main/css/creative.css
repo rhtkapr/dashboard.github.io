@@ -46,7 +46,7 @@ p {
 }
 h2{
 	font-size: 40px;
-	font-family: Apple Chancery, cursive;
+	font-family: Helvetica, sans-serif;
 }
 .bg-primary {
   background-color: #2e313f;
@@ -95,6 +95,9 @@ h2{
 .explore_btn{
 	height: 45px;
 	width: 100px;
+}
+.explore_btn:hover{
+	opacity: 0.7;
 }
 section {
   padding: 100px 0;
@@ -781,16 +784,41 @@ body {
     z-index:500;
 	padding-top: 20px;
 }
+.bg-blue1{
+	background-color: black;
+    height:70px;
+    width:100%;    
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:500;
+	padding-top: 20px;
+}
 .upper_margin{
+	margin-top: 70px;
+}
+.upper_margin1{
 	margin-top: 70px;
 }
 @media (max-width: 480px){
 	.upper_margin{
 		margin-top: 15px;
 	}
+	.upper_margin1{
+		margin-top: 70px;
+	}
 	.bg-blue{
 		background-color: black;
 		height:67px;
+		width:100%;    
+		position:fixed;
+		top:0;
+		left:0;
+		z-index:500;
+	}
+	.bg-blue1{
+		background-color: black;
+		height:120px;
 		width:100%;    
 		position:fixed;
 		top:0;
