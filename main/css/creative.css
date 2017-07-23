@@ -326,10 +326,11 @@ transform: translate(150%, -62%) !important;
 	header .header-content2 {
 		position: absolute;
 		top: 70%;
-		transform: translate(49%, 45%) !important;		/* Decreasing y.. above... increasing y.. down */
+		transform: translate(61%, 45%) !important;		/* Decreasing y.. above... increasing y.. down */
 	}
 	/* Home Icon Shadow */
 	header .header-content3 {
+		visibility: hidden;
 		position: absolute;
 		top: 70%;
 		transform: translate(110%, 30%) !important;
@@ -338,34 +339,37 @@ transform: translate(150%, -62%) !important;
 	header .header-content4 {
 		position: absolute;
 		top: 70%;
-		transform: translate(140%, 0%) !important;
+		transform: translate(160%, 0%) !important;
 	}
 	/* About Shadow */
 	header .header-content5 {
+		visibility: hidden;
 		position: absolute;
 		top: 70%;
-		transform: translate(300%, -5%) !important;
+		transform: translate(200%, -5%) !important;
 	}
 	/* Gallery */
 	header .header-content6 {
 		position: absolute;
 		top: 70%;
-		transform: translate(205%, -92%) !important;
+		transform: translate(247%, -92%) !important;
 	}
 	/* Gallery Shadow */
 	header .header-content7 {
+		visibility: hidden;
 		position: absolute;
 		top: 70%;
-		transform: translate(300%, -62%) !important;
+		transform: translate(420%, -62%) !important;
 	}
 	/* Contact */
 	header .header-content8 {
 		position: absolute;
 		top: 70%;
-		transform: translate(5%, 5%) !important;
+		transform: translate(15%, 5%) !important;
 	}
 	/* Contact Shadow*/
 	header .header-content9 {
+		visibility: hidden;
 		position: absolute;
 		top: 70%;
 		transform: translate(260%, -5%) !important;
@@ -378,6 +382,7 @@ transform: translate(150%, -62%) !important;
 	}
 	/* Services Shadow*/
 	header .header-content11 {
+		visibility: hidden;
 		position: absolute;
 		top: 70%;
 		transform: translate(150%, -62%) !important;
@@ -915,10 +920,22 @@ video {
 	height: 330px;
 	width: 700px;
 }
+
+#gmap_canvas{
+	height: 300px;
+	width: 600px;
+	margin-top: 20px;
+}
 @media (max-width: 480px){
 	.mapp{
 		overflow: hidden;
 		height: 330px;
-		width: 350px;
+		width: 320px;
+	}
+	
+	#gmap_canvas{
+		height: 300px;
+		width: 600px;
+		margin-top: 20px;
 	}
 }
