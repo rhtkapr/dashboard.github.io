@@ -67,7 +67,12 @@ p {
 	background-image: url('../img/contactbg.jpg');
 }
 .bgweb{
-	background-image: url('../img/ww7.jpg');
+	width: 100%;
+	height: 250px;
+}
+.explore_btn{
+	height: 70px;
+	width: 150px;
 }
 section {
   padding: 100px 0;
