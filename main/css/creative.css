@@ -63,6 +63,9 @@ p {
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
+.bg{
+	background-image: url('../img/contactbg.jpg');
+}
 section {
   padding: 100px 0;
 }
