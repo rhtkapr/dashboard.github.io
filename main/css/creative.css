@@ -777,7 +777,13 @@ body {
     z-index:500;
 	padding-top: 20px;
 }
+.upper_margin{
+	margin-top: 70px;
+}
 @media (max-width: 480px){
+	.upper_margin{
+		margin-top: 15px;
+	}
 	.bg-blue{
 		background-color: black;
 		height:67px;
@@ -801,6 +807,12 @@ body {
 }
 .heading1{
 	color: white;
+}
+@media (max-height: 480px){
+	h2 .heading1{
+		font-size: 5px;
+	}
+}
 }
 #other_content{
 	z-index:600;
