@@ -190,85 +190,85 @@ header .header-content .header-content-inner p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
 }
-@media (min-width: 768px) {
-  header {
-    min-height: 100%;
-  }
-  /* VG LOGO */
-  header .header-content {
-    position: absolute;
-	top: 38%;
-    -webkit-transform: translateY(-40%);
-    -ms-transform: translateY(-40%);
-    transform: translateY(-40%);
-  }
-  /* VG LOGO Shadow */
-  header .header-content1 {
-    position: absolute;
-    top: 52%;
-    transform: translate(175%, -50%) !important;
-  }
-  /* Home Icon */
-  header .header-content2 {
-    position: absolute;
-    top: 70%;
-    transform: translate(176%, -10%) !important;		/* Decreasing y.. above... increasing y.. down */
-  }
-  /* Home Icon Shadow */
-  header .header-content3 {
-    position: absolute;
-    top: 70%;
-    transform: translate(376%, 46%) !important;
-  }
-  /* About */
-  header .header-content4 {
-    position: absolute;
-    top: 70%;
-    transform: translate(329%, -37%) !important;
-  }
-  /* About Shadow */
-  header .header-content5 {
-    position: absolute;
-    top: 70%;
-    transform: translate(680%, -5%) !important;
-  }
-  /* Gallery */
-  header .header-content6 {
-    position: absolute;
-    top: 70%;
-    transform: translate(450%, -92%) !important;
-  }
-  /* Gallery Shadow */
-  header .header-content7 {
-    position: absolute;
-    top: 70%;
-    transform: translate(1100%, -62%) !important;
-  }
-  /* Contact */
-  header .header-content8 {
-    position: absolute;
-    top: 70%;
-    transform: translate(112%, -37%) !important;
-  }
-  /* Contact Shadow*/
-  header .header-content9 {
-    position: absolute;
-    top: 70%;
-    transform: translate(260%, -5%) !important;
-  }
-  /* Services*/
-  header .header-content10 {
-    position: absolute;
-    top: 70%;
-    transform: translate(38%, -92%) !important;
-  }
-  /* Services Shadow*/
-  header .header-content11 {
-    position: absolute;
-    top: 70%;
-    transform: translate(150%, -62%) !important;
-  }
-  
+
+header {
+min-height: 100%;
+}
+/* VG LOGO */
+header .header-content {
+position: absolute;
+top: 38%;
+-webkit-transform: translateY(-40%);
+-ms-transform: translateY(-40%);
+transform: translateY(-40%);
+}
+/* VG LOGO Shadow */
+header .header-content1 {
+position: absolute;
+top: 52%;
+transform: translate(175%, -50%) !important;
+}
+/* Home Icon */
+header .header-content2 {
+position: absolute;
+top: 70%;
+transform: translate(176%, -10%) !important;		/* Decreasing y.. above... increasing y.. down */
+}
+/* Home Icon Shadow */
+header .header-content3 {
+position: absolute;
+top: 70%;
+transform: translate(376%, 46%) !important;
+}
+/* About */
+header .header-content4 {
+position: absolute;
+top: 70%;
+transform: translate(329%, -37%) !important;
+}
+/* About Shadow */
+header .header-content5 {
+position: absolute;
+top: 70%;
+transform: translate(680%, -5%) !important;
+}
+/* Gallery */
+header .header-content6 {
+position: absolute;
+top: 70%;
+transform: translate(450%, -92%) !important;
+}
+/* Gallery Shadow */
+header .header-content7 {
+position: absolute;
+top: 70%;
+transform: translate(1100%, -62%) !important;
+}
+/* Contact */
+header .header-content8 {
+position: absolute;
+top: 70%;
+transform: translate(112%, -37%) !important;
+}
+/* Contact Shadow*/
+header .header-content9 {
+position: absolute;
+top: 70%;
+transform: translate(260%, -5%) !important;
+}
+/* Services*/
+header .header-content10 {
+position: absolute;
+top: 70%;
+transform: translate(38%, -92%) !important;
+}
+/* Services Shadow*/
+header .header-content11 {
+position: absolute;
+top: 70%;
+transform: translate(150%, -62%) !important;
+}
+/*logo*/
 .logo{
 	height: 300px;
 	width: 300px;
@@ -303,22 +303,137 @@ header .header-content .header-content-inner p {
 	height: 110px;
 	width: 100px;
 }
-  
-  header .header-content .header-content-inner {
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  header .header-content .header-content-inner h1 {
-    font-size: 50px;
-  }
-  header .header-content .header-content-inner p {
-    font-size: 18px;
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
+
+@media (max-width: 480px){
+	header {
+		min-height: 100% !important;
+		width: 100%;
+	}
+	/* VG LOGO */
+	header .header-content {
+		position: absolute;
+		top: 30%;
+		transform: translate(0%, -30%) !important;
+	}
+	/* VG LOGO Shadow */
+	header .header-content1 {
+		visibility: hidden;
+		position: absolute;
+		top: 30%;
+		transform: translate(15%, -50%) !important;
+	}
+	/* Home Icon */
+	header .header-content2 {
+		position: absolute;
+		top: 70%;
+		transform: translate(49%, 45%) !important;		/* Decreasing y.. above... increasing y.. down */
+	}
+	/* Home Icon Shadow */
+	header .header-content3 {
+		position: absolute;
+		top: 70%;
+		transform: translate(110%, 30%) !important;
+	}
+	/* About */
+	header .header-content4 {
+		position: absolute;
+		top: 70%;
+		transform: translate(140%, 0%) !important;
+	}
+	/* About Shadow */
+	header .header-content5 {
+		position: absolute;
+		top: 70%;
+		transform: translate(300%, -5%) !important;
+	}
+	/* Gallery */
+	header .header-content6 {
+		position: absolute;
+		top: 70%;
+		transform: translate(205%, -92%) !important;
+	}
+	/* Gallery Shadow */
+	header .header-content7 {
+		position: absolute;
+		top: 70%;
+		transform: translate(300%, -62%) !important;
+	}
+	/* Contact */
+	header .header-content8 {
+		position: absolute;
+		top: 70%;
+		transform: translate(5%, 5%) !important;
+	}
+	/* Contact Shadow*/
+	header .header-content9 {
+		position: absolute;
+		top: 70%;
+		transform: translate(260%, -5%) !important;
+	}
+	/* Services*/
+	header .header-content10 {
+		position: absolute;
+		top: 70%;
+		transform: translate(-20%, -92%) !important;
+	}
+	/* Services Shadow*/
+	header .header-content11 {
+		position: absolute;
+		top: 70%;
+		transform: translate(150%, -62%) !important;
+	}
+	/*logo*/
+	.logo{
+		height: 300px;
+		width: 280px;
+	}
+	/*home button*/
+	.logo1{
+		height: 80px;
+		width: 160px;
+	}
+	/*about, contact button*/
+	.logo2{
+		height: 60px;
+		width: 130px;
+	}
+	/*gallery, services button*/
+	.logo3{
+		height: 50px;
+		width: 110px;
+	}
+	/*home shadow css*/
+	.logo4{
+		height: 110px;
+		width: 100px;
+	}
+	/*about, contact shadows css*/
+	.logo5{
+		height: 110px;
+		width: 80px;
+	}
+	/*gallery, services shadows css*/
+	.logo6{
+		height: 110px;
+		width: 70px;
+	}
 }
+
+header .header-content .header-content-inner {
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+header .header-content .header-content-inner h1 {
+font-size: 50px;
+}
+header .header-content .header-content-inner p {
+font-size: 18px;
+max-width: 80%;
+margin-left: auto;
+margin-right: auto;
+}
+
 .section-heading {
   margin-top: 0;
 }
@@ -794,4 +909,16 @@ video {
 .header-content2:hover{
 	transform: scale(1.3, 1.3);
 	opacity: 1;
+}
+.mapp{
+	overflow: hidden;
+	height: 330px;
+	width: 700px;
+}
+@media (max-width: 480px){
+	.mapp{
+		overflow: hidden;
+		height: 330px;
+		width: 380px;
+	}
 }
