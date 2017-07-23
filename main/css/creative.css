@@ -53,7 +53,7 @@ p {
 	padding-top: 30px;
 }
 .bg-silver1{
-	background-image: url('../img/vg2.jpg');
+	background-image: url('../img/contactbg.jpg');
 	margin: auto;
 }
 .bg-dark {
@@ -654,16 +654,6 @@ body {
 	padding: 15px;
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
 }
-.card4 {
-	box-sizing: border-box;
-	border-radius: 2px;
-	background-clip: padding-box;
-	background-color: white;
-	margin: 50px auto;
-	padding: 5px;
-	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
-	color: #4772ff;
-}
 .card3 {
 	box-sizing: border-box;
 	border-radius: 2px;
@@ -675,6 +665,16 @@ body {
 	width: 28%;
 	height: 420px !important;
 	float: left;
+}
+.card4 {
+	box-sizing: border-box;
+	border-radius: 2px;
+	background-clip: padding-box;
+	background-color: white;
+	margin: 50px auto;
+	padding: 5px;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.6);
+	height: 350px !important;
 }
 .card .card-content {
 	padding: 0;
@@ -938,4 +938,10 @@ video {
 		width: 600px;
 		margin-top: 20px;
 	}
+}
+.pstyle{
+	margin: 10px;
+}
+.contact_text{
+	color: white;
 }
