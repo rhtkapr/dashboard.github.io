@@ -459,7 +459,7 @@ transform: translate(150%, -62%) !important;
 		width: 70px;
 	}
 }
-@media (max-width: 768px){
+@media (min-width: 480px, max-width: 768px){
 	header {
 		min-height: 100% !important;
 		width: 100%;
@@ -481,7 +481,7 @@ transform: translate(150%, -62%) !important;
 	header .header-content2 {
 		position: absolute;
 		top: 70%;
-		transform: translate(61%, 45%) !important;		/* Decreasing y.. above... increasing y.. down */
+		transform: translate(77%, 65%) !important;		/* Decreasing y.. above... increasing y.. down */
 	}
 	/* Home Icon Shadow */
 	header .header-content3 {
@@ -507,7 +507,7 @@ transform: translate(150%, -62%) !important;
 	header .header-content6 {
 		position: absolute;
 		top: 70%;
-		transform: translate(247%, -92%) !important;
+		transform: translate(220%, -92%) !important;
 	}
 	/* Gallery Shadow */
 	header .header-content7 {
@@ -549,18 +549,18 @@ transform: translate(150%, -62%) !important;
 	}
 	/*home button*/
 	.logo1{
-		height: 120px;
-		width: 250px;
+		height: 140px;
+		width: 300px;
 	}
 	/*about, contact button*/
 	.logo2{
-		height: 100px;
-		width: 220px;
+		height: 120px;
+		width: 270px;
 	}
 	/*gallery, services button*/
 	.logo3{
-		height: 90px;
-		width: 200px;
+		height: 110px;
+		width: 250px;
 	}
 	/*home shadow css*/
 	.logo4{
