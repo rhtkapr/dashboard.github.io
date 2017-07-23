@@ -66,6 +66,9 @@ p {
 .bg{
 	background-image: url('../img/contactbg.jpg');
 }
+.bgweb{
+	background-image: url('../img/ww7.jpg');
+}
 section {
   padding: 100px 0;
 }
