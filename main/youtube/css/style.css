@@ -489,7 +489,27 @@ h2{
 .follow:hover{
 	opacity: 0.5;
 }
-h3{
+.banner_info_grid h3{
 	color: white;
 	margin-top: 0px;
+}
+#profile h2{
+	font-size: 55px;
+	color: #3399ff;
+	font-family: helvetica, sans-serif;
+}
+#profile h4{
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.5);
+}
+#profile h3{
+	font-size: 30px;
+	color: #3399ff;
+}
+hr{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.img-circle{
+	border: 10px solid rgba(0, 0, 0, 0.1);
 }
