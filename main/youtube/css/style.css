@@ -506,6 +506,58 @@ h2{
 	font-size: 30px;
 	color: #3399ff;
 }
+#experiences h2{
+	font-size: 55px;
+	color: #3399ff;
+	font-family: helvetica, sans-serif;
+}
+#experiences h4{
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.5);
+}
+#experiences h3{
+	font-size: 30px;
+	color: #3399ff;
+}
+#abilities h2{
+	font-size: 55px;
+	color: #3399ff;
+	font-family: helvetica, sans-serif;
+}
+#abilities h4{
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.5);
+}
+#abilities h3{
+	font-size: 30px;
+	color: #3399ff;
+}
+#hobbies h2{
+	font-size: 55px;
+	color: #3399ff;
+	font-family: helvetica, sans-serif;
+}
+#hobbies h4{
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.5);
+}
+#hobbies h3{
+	font-size: 30px;
+	color: #3399ff;
+}
+#projects h2{
+	font-size: 55px;
+	color: #3399ff;
+	font-family: helvetica, sans-serif;
+}
+#projects h4{
+	font-size: 23px;
+	color: rgba(0, 0, 0, 0.5);
+}
+#projects h3{
+	font-size: 30px;
+	color: #3399ff;
+}
 hr{
 	margin-top: 40px;
 	margin-bottom: 40px;
