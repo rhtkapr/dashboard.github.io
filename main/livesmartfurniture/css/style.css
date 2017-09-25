@@ -33,7 +33,7 @@ img{
 	height: 400px !important;
 }
 .headertxt{
-	background-color: #ccccb3;
+	background-color: rgba(0,0,0,0.1);
 }
 
 .cuadro_intro_hover{
@@ -88,7 +88,7 @@ footer{
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     }
     .card:hover {
-      box-shadow: 0 6px 20px 0 white, 0 2px 10px 0 white;
+      box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.42), 0 2px 10px 0 rgba(0, 0, 0, 0.35);
     }   
 
 .card {
@@ -98,7 +98,7 @@ footer{
 	background-color: white;
 	margin: auto;
 	padding: 15px;
-	width: 150px;
+	width: 148px;
 	float: left;
 }
 /* jssor slider loading skin spin css */
@@ -133,15 +133,59 @@ footer{
 .jssora073.jssora073ds {opacity:.3;pointer-events:none;}
 
 
-nav .navbar .navbar-default{
+/*Background color of navbar, use #4caf50 for a green color, #0089ec for blue*/
+nav {
+	/*Lol its transparent now anyway*/
+	
+	opacity: 0.8;
 	position: fixed;
 }
+
+.navbar-default{
+	min-height: 75px;
+	text-align: center;
+	background: transparent;
+}
+
+
+#textnav{
+	display:table-row;
+}
+#textnav li{
+	display:table-cell;
+    height: 40px;
+    text-align:center;
+    vertical-align:middle;
+}
+#textnav a{
+    width: 200px;
+    display:inline-block;
+}
+
+/*Font size of navbar links*/
+nav ul a {
+	font-size: 17px;
+	text-transform: uppercase;
+}
+
+/*Color of active page link*/
+nav ul li.active {
+    background-color: #00bcd4;
+
+}
+
+.logo{
+	height: 60px;
+	width: 300px;
+	margin-top:0;
+}
+
 .chipkao {
 	margin-bottom: 0;
 }
 
-#products h2{
-	margin-top: 80px;
+#trending h2{
+	margin-top: 60px;
 	margin-bottom: 40px;
 	font-size: 50px;
 }
@@ -151,4 +195,7 @@ nav .navbar .navbar-default{
 }
 .footerheading{
 	margin-left: 80px;
+}
+.imgcards{
+	margin-left: 10px;
 }
