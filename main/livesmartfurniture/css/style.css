@@ -102,6 +102,14 @@ footer{
 	width: 148px;
 	float: left;
 }
+.card1 {
+	box-sizing: border-box;
+	border-radius: 2px;
+	background-clip: padding-box;
+	background-color: white;
+	margin: auto;
+	padding: 15px;
+}
 /* jssor slider loading skin spin css */
 .jssorl-009-spin img {
 	animation-name: jssorl-009-spin;
