@@ -247,10 +247,6 @@ background-image: url("https://images3.alphacoders.com/635/thumb-1920-63547.jpg"
 #galleryimage{ 
 	background-image:url('../images/gallery.jpg');
 	height:800px;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 footer {
 	background-color: transparent !important;
