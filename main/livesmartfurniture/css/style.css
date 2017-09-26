@@ -118,7 +118,7 @@ footer{
 	background-color: white;
 	margin: auto;
 	padding: 15px;
-	height: 320px;
+	height: 380px;
 }
 .card2 {
 	box-sizing: border-box;
@@ -230,4 +230,8 @@ nav ul li.active {
 	height: 100px;
 	width: 100px;
 	margin: auto;
+}
+.teamimg1{
+	height: 100px;
+	width: 100px;
 }
