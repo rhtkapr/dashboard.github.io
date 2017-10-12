@@ -502,6 +502,15 @@ h2{
 	color: white;
 	margin-top: 0px;
 }
+
+#profile{
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #profile h2{
 	font-size: 55px;
 	color: #3399ff;
@@ -580,13 +589,13 @@ hr{
 .profilebg{
 }
 .projectsbg{
-	background-image: url('../images/blackbg2.JPG');
+	background-image: url('../images/blackbg2.jpg');
 }
 .skillsbg{
 	
 }
 .hobbiesbg{
-	background-image: url('../images/blackbg2.JPG');
+	background-image: url('../images/blackbg2.jpg');
 }
 .educationbg{
 }

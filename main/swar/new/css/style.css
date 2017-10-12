@@ -1,0 +1,18 @@
+h1{
+	font-size: 40px;
+}
+.card {
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.card:hover {
+	box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.5);
+}
+.card {
+	box-sizing: border-box;
+	border-radius: 2px;
+	background-clip: padding-box;
+	background-color: white;
+	margin: auto;
+	padding: 15px;
+	height: 280px;
+}
