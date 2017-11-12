@@ -8,6 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+	<meta name="description" itemprop="description" content="Professionals around the country have collaborated in a team, just to provide services in various fields like Web Development, Android Development, Graphics Designing, Software Tool etc.">
+    <meta name="keywords" itemprop="keywords" content="vgeekers, VG, vg, Vgeekers, android, web, websites, web development, android development, graphics, graphic, posters, UI, UX, ui, ux, design, designing, best websites developer, best android developer, software tools, softwares, top websites developer, top android developer">
+    <meta name="robot" content="index, follow">
 
 	<link rel="shortcut icon" href="img/logo1.ico" />
     <title>V-Geekers</title>
@@ -150,7 +153,7 @@
 					<img src="img/icons/web.png" class="sr-icons img-responsive" style="width: 150px;">
 					<h3>Web Development</h3>
 					<p class="text-muted">You are gonna love to make website with V-Geekers!</p>
-					<p><a href="web-development.html" class="btn sr-button"><img src="img/explore_icon.png" class="img-responsive explore_btn"></a></p>
+					<p><font color="teal" id="blinker1">Click Here <span class="glyphicon glyphicon-arrow-right"></span></font><a href="web-development.html" class="btn sr-button"><img src="img/explore_icon.png" class="img-responsive explore_btn"></a></p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 text-center card">
@@ -158,7 +161,7 @@
 					<img src="img/icons/android.png" class="sr-icons img-responsive" style="width: 150px;">
 					<h3>Android Development</h3>
 					<p class="text-muted">Make your Apps User-Friendly with better UI and UX!</p>
-					<p><a href="android-development.html" class="btn sr-button"><img src="img/explore_icon.png" class="img-responsive explore_btn"></a></p>
+					<p><font color="teal" id="blinker2">Click Here <span class="glyphicon glyphicon-arrow-right"></span></font><a href="android-development.html" class="btn sr-button"><img src="img/explore_icon.png" class="img-responsive explore_btn"></a></p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 text-center card">
@@ -166,7 +169,7 @@
 					<img src="img/icons/graphics.png" class="sr-icons img-responsive" style="width: 150px;">
 					<h3>Graphic Designing</h3>
 					<p class="text-muted">The Art of Graphics is having a Creative Mind!</p>
-					<p><a href="graphics-designing.html" class="btn sr-button"><img src="img/explore_icon.png" class="img-responsive explore_btn"></a></p>
+					<p><font color="teal" id="blinker3">Click Here <span class="glyphicon glyphicon-arrow-right"></span></font><a href="graphics-designing.html" class="btn sr-button"><img src="img/explore_icon.png" class="img-responsive explore_btn"></a></p>
 				</div>
 			</div>
 			<div class="col-lg-3 col-md-6 text-center card">
@@ -174,13 +177,37 @@
 					<img src="img/icons/software.png" class="sr-icons img-responsive" style="width: 150px;">
 					<h3>Software Tools</h3>
 					<p class="text-muted">The Best way to update your Software is to TOOL it!</p>
-					<p><a href="software-tools.html" class="btn sr-button"><img src="img/explore_icon.png" class="img-responsive explore_btn"></a></p>
+					<p><font color="teal" id="blinker4">Click Here <span class="glyphicon glyphicon-arrow-right"></span></font><a href="software-tools.html" class="btn sr-button"><img src="img/explore_icon.png" class="img-responsive explore_btn"></a></p>
 				</div>
 			</div>
 		</div>
-		<h3 class="text-center"><b>[NOTE : Click <font color="blue">"Explore"</font> to know more!]</b></h3>
 	</div>
 </section>
+
+<script>
+	var blink_speed = 500;
+	var t = setInterval(function () 
+	{ 
+		var ele = document.getElementById('blinker1'); 
+		ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+	}, blink_speed);
+	var u = setInterval(function () 
+	{ 
+		var ele = document.getElementById('blinker2'); 
+		ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+	}, blink_speed);
+	var v = setInterval(function () 
+	{ 
+		var ele = document.getElementById('blinker3'); 
+		ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+	}, blink_speed);
+	var w = setInterval(function () 
+	{ 
+		var ele = document.getElementById('blinker4'); 
+		ele.style.visibility = (ele.style.visibility == 'hidden' ? '' : 'hidden');
+	}, blink_speed);
+
+</script>
 	
 <div class="bg-silver bg" id="about">
 	<div class="container-fluid back">
